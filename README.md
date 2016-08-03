@@ -22,7 +22,7 @@ Tested prerequisites
 
 I've successfully built this on:
 * 64-bit Ubuntu 16.04
-* Android Studio 2.1
+* Android NDK r12, Android SDK r24.4.1
 * Qt 5.5.1
 
 What to run
@@ -44,3 +44,16 @@ Results
 =======
 The resulting PySide2 libraries are in the stage folder. Enjoy ! :)
 Use with [this project template](https://github.com/ethanhs/android-pyside-example-project) to start with your new project.
+
+Thanks
+======
+
+This project is the culination of the work of many others, I really am just updating it for Python3 and Qt5. Huge thanks to @ssorgatem and @M4rtinK for doing the need work to get the original PySide to work on Android, and of course a big thanks to all of those who have contributed to PySide over the years.
+
+TODO
+====
+
+* Get Python3 and PySide2 compiling for Android
+* Use the binaries to make a simple app
+* Rewrite the build scripts in Python to be more platform agnostic, add more configurations and options.
+* Make a toolchain to build Python3.5 and PySide2, so that anyone can use it.

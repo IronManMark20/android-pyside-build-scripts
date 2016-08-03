@@ -27,7 +27,7 @@ echo "* CXXFLAGS: ${CXXFLAGS}"
 echo "* Python dir: ${PYTHON_DIR}"
 
 echo "* configuring PySide for build *"
-cmake ../pyside-android -DCMAKE_INSTALL_PREFIX=../stage -DCMAKE_BUILD_TYPE=MinSizeRel -DENABLE_ICECC=0 -DCMAKE_SYSTEM="Necessitas NDK r8b1" -DCMAKE_SYSTEM_NAME="android" -DCMAKE_SYSTEM_PROCESSOR="arm-eabi" -DBUILD_TESTS=false -DCMAKE_INSTALL_PREFIX=../stage -Dandroid="true" -DSHIBOKEN_INCLUDE_DIR="${SHIBOKEN_INCLUDES_PATH}" -DSHIBOKEN_LIBRARY="${SHIBOKEN_LIB_PATH}" -DSHIBOKEN_PYTHON_LIBRARIES="${PYTHON_LIBRARY}"
+cmake ../pyside-android -DCMAKE_INSTALL_PREFIX=../stage -DCMAKE_BUILD_TYPE=MinSizeRel -DENABLE_ICECC=0 -DCMAKE_SYSTEM_NAME="android" -DCMAKE_SYSTEM_PROCESSOR="arm-eabi" -DBUILD_TESTS=false -DCMAKE_INSTALL_PREFIX=../stage -Dandroid="true" -DSHIBOKEN_INCLUDE_DIR="${SHIBOKEN_INCLUDES_PATH}" -DSHIBOKEN_LIBRARY="${SHIBOKEN_LIB_PATH}" -DSHIBOKEN_PYTHON_LIBRARIES="${PYTHON_LIBRARY}"
 
 # fix PySide paths
 #
@@ -38,7 +38,7 @@ cmake ../pyside-android -DCMAKE_INSTALL_PREFIX=../stage -DCMAKE_BUILD_TYPE=MinSi
 # in the CMAKE generated build files with sed before starting the build
 
 cd ..
-bash fix_pyside_cmake_paths.sh
+#bash fix_pyside_cmake_paths.sh
 cd pyside-build
 
 read -p "* Press any key to start the PySide build *" -n1 -s
