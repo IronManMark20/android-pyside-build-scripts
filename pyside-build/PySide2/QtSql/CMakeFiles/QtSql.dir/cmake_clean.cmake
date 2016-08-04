@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "PySide2/QtSql/qsql_wrapper.cpp"
+  "PySide2/QtSql/qsqldatabase_wrapper.cpp"
+  "PySide2/QtSql/qsqldriver_wrapper.cpp"
+  "PySide2/QtSql/qsqldrivercreatorbase_wrapper.cpp"
+  "PySide2/QtSql/qsqlerror_wrapper.cpp"
+  "PySide2/QtSql/qsqlfield_wrapper.cpp"
+  "PySide2/QtSql/qsqlindex_wrapper.cpp"
+  "PySide2/QtSql/qsqlquery_wrapper.cpp"
+  "PySide2/QtSql/qsqlquerymodel_wrapper.cpp"
+  "PySide2/QtSql/qsqlrecord_wrapper.cpp"
+  "PySide2/QtSql/qsqlrelation_wrapper.cpp"
+  "PySide2/QtSql/qsqlrelationaldelegate_wrapper.cpp"
+  "PySide2/QtSql/qsqlrelationaltablemodel_wrapper.cpp"
+  "PySide2/QtSql/qsqlresult_wrapper.cpp"
+  "PySide2/QtSql/qsqltablemodel_wrapper.cpp"
+  "PySide2/QtSql/qtsql_module_wrapper.cpp"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsql_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqldatabase_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqldriver_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqldrivercreatorbase_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlerror_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlfield_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlindex_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlquery_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlquerymodel_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlrecord_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlrelation_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlrelationaldelegate_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlrelationaltablemodel_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqlresult_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qsqltablemodel_wrapper.cpp.o"
+  "CMakeFiles/QtSql.dir/PySide2/QtSql/qtsql_module_wrapper.cpp.o"
+  "../QtSql.x86_64-linux-gnu.pdb"
+  "../QtSql.x86_64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/QtSql.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

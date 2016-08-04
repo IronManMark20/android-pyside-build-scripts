@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "PySide2/QtXmlPatterns/qabstractmessagehandler_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qabstracturiresolver_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qabstractxmlnodemodel_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qabstractxmlreceiver_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qsourcelocation_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlformatter_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlitem_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlnamepool_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlname_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlnodemodelindex_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlquery_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlresultitems_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlschemavalidator_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlschema_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qxmlserializer_wrapper.cpp"
+  "PySide2/QtXmlPatterns/qtxmlpatterns_module_wrapper.cpp"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qabstractmessagehandler_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qabstracturiresolver_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qabstractxmlnodemodel_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qabstractxmlreceiver_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qsourcelocation_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlformatter_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlitem_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlnamepool_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlname_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlnodemodelindex_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlquery_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlresultitems_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlschemavalidator_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlschema_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qxmlserializer_wrapper.cpp.o"
+  "CMakeFiles/QtXmlPatterns.dir/PySide2/QtXmlPatterns/qtxmlpatterns_module_wrapper.cpp.o"
+  "../QtXmlPatterns.x86_64-linux-gnu.pdb"
+  "../QtXmlPatterns.x86_64-linux-gnu.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/QtXmlPatterns.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

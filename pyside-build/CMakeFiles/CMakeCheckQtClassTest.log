@@ -1,0 +1,304 @@
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc59a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc59a.dir/build.make CMakeFiles/cmTC_cc59a.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc59a.dir/testQAbstractPrintDialog.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_cc59a.dir/testQAbstractPrintDialog.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQAbstractPrintDialog.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQAbstractPrintDialog.cxx:1:32: fatal error: QAbstractPrintDialog: No such file or directory
+ #include <QAbstractPrintDialog>
+                                ^
+compilation terminated.
+CMakeFiles/cmTC_cc59a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_cc59a.dir/testQAbstractPrintDialog.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_cc59a.dir/testQAbstractPrintDialog.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc59a/fast' failed
+make: *** [cmTC_cc59a/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce501/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce501.dir/build.make CMakeFiles/cmTC_ce501.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ce501.dir/testQGtkStyle.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_ce501.dir/testQGtkStyle.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQGtkStyle.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQGtkStyle.cxx:1:21: fatal error: QGtkStyle: No such file or directory
+ #include <QGtkStyle>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_ce501.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_ce501.dir/testQGtkStyle.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_ce501.dir/testQGtkStyle.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ce501/fast' failed
+make: *** [cmTC_ce501/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_576ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_576ae.dir/build.make CMakeFiles/cmTC_576ae.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_576ae.dir/testQPageSetupDialog.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_576ae.dir/testQPageSetupDialog.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPageSetupDialog.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPageSetupDialog.cxx:1:28: fatal error: QPageSetupDialog: No such file or directory
+ #include <QPageSetupDialog>
+                            ^
+compilation terminated.
+CMakeFiles/cmTC_576ae.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_576ae.dir/testQPageSetupDialog.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_576ae.dir/testQPageSetupDialog.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_576ae/fast' failed
+make: *** [cmTC_576ae/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6f86/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6f86.dir/build.make CMakeFiles/cmTC_c6f86.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6f86.dir/testQPrintDialog.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_c6f86.dir/testQPrintDialog.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintDialog.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintDialog.cxx:1:24: fatal error: QPrintDialog: No such file or directory
+ #include <QPrintDialog>
+                        ^
+compilation terminated.
+CMakeFiles/cmTC_c6f86.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c6f86.dir/testQPrintDialog.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_c6f86.dir/testQPrintDialog.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c6f86/fast' failed
+make: *** [cmTC_c6f86/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ea0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2ea0e.dir/build.make CMakeFiles/cmTC_2ea0e.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ea0e.dir/testQPrintEngine.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_2ea0e.dir/testQPrintEngine.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintEngine.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintEngine.cxx:1:24: fatal error: QPrintEngine: No such file or directory
+ #include <QPrintEngine>
+                        ^
+compilation terminated.
+CMakeFiles/cmTC_2ea0e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2ea0e.dir/testQPrintEngine.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2ea0e.dir/testQPrintEngine.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2ea0e/fast' failed
+make: *** [cmTC_2ea0e/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57668/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57668.dir/build.make CMakeFiles/cmTC_57668.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57668.dir/testQPrintPreviewDialog.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_57668.dir/testQPrintPreviewDialog.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintPreviewDialog.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintPreviewDialog.cxx:1:31: fatal error: QPrintPreviewDialog: No such file or directory
+ #include <QPrintPreviewDialog>
+                               ^
+compilation terminated.
+CMakeFiles/cmTC_57668.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_57668.dir/testQPrintPreviewDialog.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_57668.dir/testQPrintPreviewDialog.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_57668/fast' failed
+make: *** [cmTC_57668/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3dfe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3dfe.dir/build.make CMakeFiles/cmTC_d3dfe.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3dfe.dir/testQPrintPreviewWidget.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_d3dfe.dir/testQPrintPreviewWidget.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintPreviewWidget.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrintPreviewWidget.cxx:1:31: fatal error: QPrintPreviewWidget: No such file or directory
+ #include <QPrintPreviewWidget>
+                               ^
+compilation terminated.
+CMakeFiles/cmTC_d3dfe.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d3dfe.dir/testQPrintPreviewWidget.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d3dfe.dir/testQPrintPreviewWidget.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3dfe/fast' failed
+make: *** [cmTC_d3dfe/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99f6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99f6c.dir/build.make CMakeFiles/cmTC_99f6c.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99f6c.dir/testQPrinter.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_99f6c.dir/testQPrinter.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrinter.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrinter.cxx:1:20: fatal error: QPrinter: No such file or directory
+ #include <QPrinter>
+                    ^
+compilation terminated.
+CMakeFiles/cmTC_99f6c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_99f6c.dir/testQPrinter.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_99f6c.dir/testQPrinter.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_99f6c/fast' failed
+make: *** [cmTC_99f6c/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8370/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8370.dir/build.make CMakeFiles/cmTC_e8370.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e8370.dir/testQPrinterInfo.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_e8370.dir/testQPrinterInfo.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrinterInfo.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQPrinterInfo.cxx:1:24: fatal error: QPrinterInfo: No such file or directory
+ #include <QPrinterInfo>
+                        ^
+compilation terminated.
+CMakeFiles/cmTC_e8370.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_e8370.dir/testQPrinterInfo.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_e8370.dir/testQPrinterInfo.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8370/fast' failed
+make: *** [cmTC_e8370/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b49b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b49b4.dir/build.make CMakeFiles/cmTC_b49b4.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b49b4.dir/testQSessionManager.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_b49b4.dir/testQSessionManager.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSessionManager.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSessionManager.cxx:1:27: fatal error: QSessionManager: No such file or directory
+ #include <QSessionManager>
+                           ^
+compilation terminated.
+CMakeFiles/cmTC_b49b4.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b49b4.dir/testQSessionManager.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_b49b4.dir/testQSessionManager.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b49b4/fast' failed
+make: *** [cmTC_b49b4/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eb2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eb2e.dir/build.make CMakeFiles/cmTC_2eb2e.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2eb2e.dir/testQSizeGrip.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_2eb2e.dir/testQSizeGrip.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSizeGrip.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSizeGrip.cxx:1:21: fatal error: QSizeGrip: No such file or directory
+ #include <QSizeGrip>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_2eb2e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2eb2e.dir/testQSizeGrip.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_2eb2e.dir/testQSizeGrip.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2eb2e/fast' failed
+make: *** [cmTC_2eb2e/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_689b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_689b0.dir/build.make CMakeFiles/cmTC_689b0.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_689b0.dir/testQSystemTrayIcon.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_689b0.dir/testQSystemTrayIcon.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSystemTrayIcon.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSystemTrayIcon.cxx:1:27: fatal error: QSystemTrayIcon: No such file or directory
+ #include <QSystemTrayIcon>
+                           ^
+compilation terminated.
+CMakeFiles/cmTC_689b0.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_689b0.dir/testQSystemTrayIcon.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_689b0.dir/testQSystemTrayIcon.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_689b0/fast' failed
+make: *** [cmTC_689b0/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e376/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e376.dir/build.make CMakeFiles/cmTC_3e376.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e376.dir/testQMacStyle.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_3e376.dir/testQMacStyle.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQMacStyle.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQMacStyle.cxx:1:21: fatal error: QMacStyle: No such file or directory
+ #include <QMacStyle>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_3e376.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3e376.dir/testQMacStyle.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3e376.dir/testQMacStyle.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3e376/fast' failed
+make: *** [cmTC_3e376/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ceb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ceb7.dir/build.make CMakeFiles/cmTC_5ceb7.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ceb7.dir/testQSslCertificate.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_5ceb7.dir/testQSslCertificate.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslCertificate.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslCertificate.cxx:1:27: fatal error: QSslCertificate: No such file or directory
+ #include <QSslCertificate>
+                           ^
+compilation terminated.
+CMakeFiles/cmTC_5ceb7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5ceb7.dir/testQSslCertificate.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_5ceb7.dir/testQSslCertificate.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5ceb7/fast' failed
+make: *** [cmTC_5ceb7/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7820f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7820f.dir/build.make CMakeFiles/cmTC_7820f.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7820f.dir/testQSslCipher.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_7820f.dir/testQSslCipher.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslCipher.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslCipher.cxx:1:22: fatal error: QSslCipher: No such file or directory
+ #include <QSslCipher>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_7820f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7820f.dir/testQSslCipher.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_7820f.dir/testQSslCipher.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7820f/fast' failed
+make: *** [cmTC_7820f/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16b99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16b99.dir/build.make CMakeFiles/cmTC_16b99.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16b99.dir/testQSslConfiguration.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_16b99.dir/testQSslConfiguration.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslConfiguration.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslConfiguration.cxx:1:29: fatal error: QSslConfiguration: No such file or directory
+ #include <QSslConfiguration>
+                             ^
+compilation terminated.
+CMakeFiles/cmTC_16b99.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_16b99.dir/testQSslConfiguration.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_16b99.dir/testQSslConfiguration.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_16b99/fast' failed
+make: *** [cmTC_16b99/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ff53/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0ff53.dir/build.make CMakeFiles/cmTC_0ff53.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0ff53.dir/testQSslError.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_0ff53.dir/testQSslError.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslError.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslError.cxx:1:21: fatal error: QSslError: No such file or directory
+ #include <QSslError>
+                     ^
+compilation terminated.
+CMakeFiles/cmTC_0ff53.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_0ff53.dir/testQSslError.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0ff53.dir/testQSslError.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0ff53/fast' failed
+make: *** [cmTC_0ff53/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d53aa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d53aa.dir/build.make CMakeFiles/cmTC_d53aa.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d53aa.dir/testQSslKey.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_d53aa.dir/testQSslKey.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslKey.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslKey.cxx:1:19: fatal error: QSslKey: No such file or directory
+ #include <QSslKey>
+                   ^
+compilation terminated.
+CMakeFiles/cmTC_d53aa.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d53aa.dir/testQSslKey.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d53aa.dir/testQSslKey.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d53aa/fast' failed
+make: *** [cmTC_d53aa/fast] Error 2
+Change Dir: /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f263/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8f263.dir/build.make CMakeFiles/cmTC_8f263.dir/build
+make[1]: Entering directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f263.dir/testQSslSocket.cxx.o
+/home/ethanhs/python3-android/sdk/android-ndk-r12/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi-g++    -I/home/ethanhs/Qt5.5.1/5.5/android_armv7/include  -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -DANDROID -mandroid -fomit-frame-pointer -pipe --sysroot /home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm -L/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/stage/include/shiboken -I/home/ethanhs/python3-android/build/12-21-arm-linux-androideabi-4.9/include/python3.5m -L/home/ethanhs/android-pyside-build-scripts/stage/lib -I/home/ethanhs/python3-android/sdk/android-ndk-r12/platforms/android-21/arch-arm/usr/include -I/home/ethanhs/android-pyside-build-scripts/pyside2-android/libpyside -fPIC -fvisibility=hidden -Wno-strict-aliasing -rdynamic  -Wall -fvisibility=hidden -Wno-strict-aliasing    -o CMakeFiles/cmTC_8f263.dir/testQSslSocket.cxx.o -c /home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslSocket.cxx
+/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp/testQSslSocket.cxx:1:22: fatal error: QSslSocket: No such file or directory
+ #include <QSslSocket>
+                      ^
+compilation terminated.
+CMakeFiles/cmTC_8f263.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8f263.dir/testQSslSocket.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_8f263.dir/testQSslSocket.cxx.o] Error 1
+make[1]: Leaving directory '/home/ethanhs/android-pyside-build-scripts/pyside-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8f263/fast' failed
+make: *** [cmTC_8f263/fast] Error 2

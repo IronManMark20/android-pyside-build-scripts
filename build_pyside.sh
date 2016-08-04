@@ -8,17 +8,21 @@ source env.sh
 # cleanup from any previous build
 echo "* cleaning up previous PySide build *"
 rm -rf pyside-build/*
-rm -f stage/libpyside.so
+#rm -f stage/libpyside.so
 
 cd pyside-build
+export LDFLAGS="-L${BUILD_DIR}/stage/lib -L${ANDROID_NDK}/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi ${LDFLAGS}"
 
 #SHIBOKEN_LIBRARIES_PATH="${ANDROID_DIR}/stage/lib"
-SHIBOKEN_LIB_PATH="${BUILD_DIR}/stage/lib/libshiboken.so"
-SHIBOKEN_INCLUDES_PATH="${BUILD_DIR}/stage/include/shiboken"
+SHIBOKEN_LIB_PATH="${BUILD_DIR}/stage/lib/libshiboken2.cpython-35m.so"
+SHIBOKEN_INCLUDES_PATH="${BUILD_DIR}/stage/include/shiboken2"
+
+PYTHON_INCLUDE_DIRS="${PYTHON_DIR}/include/python3.5m"
+PYTHON_LIBRARIES="${PYTHON_DIR}/lib"
 
 # add the shiboken lib directory & link manually against libshiboken to get rid of the absolute paths in the resulting DSOs
 # and do the same for QtCore
-export LDFLAGS="${LDFLAGS} -L${SHIBOKEN_LIB_PATH} -lshiboken -lQtCore"
+export LDFLAGS="${LDFLAGS} -L${SHIBOKEN_LIB_PATH} -lshiboken2.cpython-35m -lQt5Core"
 
 echo "* Important variables & paths: *"
 echo "* LDFLAGS: ${LDFLAGS}"
@@ -27,19 +31,8 @@ echo "* CXXFLAGS: ${CXXFLAGS}"
 echo "* Python dir: ${PYTHON_DIR}"
 
 echo "* configuring PySide for build *"
-cmake ../pyside-android -DCMAKE_INSTALL_PREFIX=../stage -DCMAKE_BUILD_TYPE=MinSizeRel -DENABLE_ICECC=0 -DCMAKE_SYSTEM_NAME="android" -DCMAKE_SYSTEM_PROCESSOR="arm-eabi" -DBUILD_TESTS=false -DCMAKE_INSTALL_PREFIX=../stage -Dandroid="true" -DSHIBOKEN_INCLUDE_DIR="${SHIBOKEN_INCLUDES_PATH}" -DSHIBOKEN_LIBRARY="${SHIBOKEN_LIB_PATH}" -DSHIBOKEN_PYTHON_LIBRARIES="${PYTHON_LIBRARY}"
+cmake ../pyside2-android -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=../stage -DCMAKE_BUILD_TYPE=MinSizeRel -DENABLE_ICECC=0 -DCMAKE_SYSTEM_PROCESSOR="arm-eabi" -DBUILD_TESTS=false -DCMAKE_INSTALL_PREFIX=../stage -Dandroid="true" -DSHIBOKEN_INCLUDE_DIR="${SHIBOKEN_INCLUDES_PATH}" -DCMAKE_CXX_COMPILER=${CXX} -DCMAKE_C_COMPILER=${CC} -DSHIBOKEN_LIBRARY="${SHIBOKEN_LIB_PATH}" -DPYTHON_INCLUDE_DIRS=${PYTHON_INCLUDE_DIRS} -DPYTHON_VERSION_MAJOR=3 -DPYTHON_VERSION_MINOR=5 -DPYTHON_VERSION_PATCH=1 -DSHIBOKEN_PYTHON_LIBRARIES="${PYTHON_LIBRARY}" -DCMAKE_PREFIX_PATH="${HOME}/Qt5.5.1/5.5/android_armv7/lib/cmake/Qt5Designer/:${HOME}/Qt5.5.1/5.5/android_armv7/lib/cmake/Qt5WebKit/:${HOME}/Qt5.5.1/5.5/android_armv7/lib/cmake/Qt5WebKitWidgets/"
 
-# fix PySide paths
-#
-# Due to missing SONAME in the Necessitas Qt libraries, CMAKE hardcodes the full
-# local path to the libraries to the build files, which results in PySide libraries
-# containing absolute paths that don't work once deployed to an Android device
-# I haven't found any other way how to solve this than to just split the paths
-# in the CMAKE generated build files with sed before starting the build
-
-cd ..
-#bash fix_pyside_cmake_paths.sh
-cd pyside-build
 
 read -p "* Press any key to start the PySide build *" -n1 -s
 

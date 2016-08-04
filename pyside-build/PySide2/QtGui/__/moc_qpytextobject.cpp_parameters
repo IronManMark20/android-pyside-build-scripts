@@ -1,0 +1,4 @@
+-DQT_CORE_LIB
+-o
+/home/ethanhs/android-pyside-build-scripts/pyside-build/PySide2/QtGui/__/moc_qpytextobject.cpp
+/home/ethanhs/android-pyside-build-scripts/pyside2-android/PySide2/qpytextobject.h
