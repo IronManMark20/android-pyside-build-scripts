@@ -1,0 +1,5 @@
+if (NOT PYTHON_EXTENSION_SUFFIX)
+    message(STATUS "Shiboken2Config: Using default python: .cpython-35m")
+    SET(PYTHON_EXTENSION_SUFFIX .cpython-35m)
+endif()
+include(/home/ethanhs/pyside2-android/android-pyside2-setup/stage/Shiboken2Config${PYTHON_EXTENSION_SUFFIX}.cmake)
