@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-export BUILD_THREAD_COUNT=5
+export BUILD_THREAD_COUNT=7
 # how many threads to use for the build
 # if you get this error:
 # "arm-linux-androideabi-g++: Internal error: Killed (program cc1plus)"
@@ -11,7 +11,7 @@ export BUILD_THREAD_COUNT=5
 
 export ANDROID_NDK="${HOME}/python3-android/sdk/android-ndk-r12"
 #With Qt5, all of the needed Android related 
-export QT_DIR="${HOME}/Qt5.5.1/5.5/android_armv7"
+export QT_DIR="${HOME}/Qt5.6.0/5.6/android_armv7"
 
 export ANDROID_API_LEVEL="21"
 # this specifies the Android API level, 21 corresponds to Android 5.x
